@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Client {
@@ -16,6 +17,7 @@ public class Client {
     }
     private void setName(){
         System.out.print("Enter Client Name: ");
+        boolean answer = true;
         name = scanner.nextLine();
     }
     private void setPhoneNumber(){
